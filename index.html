@@ -3,42 +3,48 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="belanos.css">
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 		<meta charset="utf-8">
 		<title>Belanos</title>
 	</head>
 	<body>
-		<div class="title">
-		<h1>Belanos</h1>
-			<em><b>T</b>echnology. <b>N</b>ature. <b>C</b>ommunity.</em>
-		</div>
+		<header>
+			<div class="title">
+			<h1>Belanos</h1>
+				<em><b>T</b>echnology. <b>N</b>ature. <b>C</b>ommunity.</em>
+			</div>
+		</header
 		<hr>
+		<main class="h-card" rel="author">
 			<section id="welcome-section">
 				<h2>About</h2>
-			<!-- Information on Belanos -->
-				<header>
+				<!-- Information on Belanos -->
 					<p class="text"> 
-						Hi, I'm <a href="http://belanos.social/" class="h-card p-given-name" rel="me">Brian</a>. 
+						Hi, I'm <span class="p-name">Brian</span>. 
 					</p>
-				</header>
+					<p class="p-note">
+						I'm a dad and part-time philosopher at the University of Oslo, where I'm writing a thesis on
+						how a specific definition of attention puts constraints on how to define mind-wandering.
+					</p>
+	
 			</section>
-		<main>
-			<span class="h-card">
-						<p class="p-note">I'm a dad and part-time philosopher at the University of Oslo, where I'm writing a thesis on
-							how a specific definition of attention puts constraints on how to define mind-wandering.</p>
-					</span>
-					<p class="text"> 
-						<ul>
-  							<li><a href="https://github.com/papodon" rel="me">@papodon on Github</a></li>
-						</ul>
-					</p>
+			<hr>
+			<section id="links">
+				<p class="text"> 
+					<ul>
+						<li><a class="u-uid u-url" href="https://belanos.social">My Website</a></li>
+  						<li><a class="u-url" href="https://github.com/papodon" rel="me">@papodon on Github</a></li>
+					</ul>
+				</p>
 		</main>
 		<hr>
 		<footer>
 			<p class="footer">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-                <br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.   
-      </p>
+                		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                		<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+                		<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.   
+      			</p>
 		</footer>
 	</body>
 </html>
